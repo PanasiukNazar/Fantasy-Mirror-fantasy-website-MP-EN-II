@@ -1192,6 +1192,16 @@
     border-style: dotted;
     transition: 0.5s;
 }
+
+.testimonial
+    .testimonial-carousel
+    .owl-item.center
+    .testimonial-item
+    .testimonial-img
+    img {
+    height: 100%;
+    object-fit: cover;
+}
 /*** Testimonial End ***/
 
 /*** Contact Start ***/
@@ -1207,8 +1217,7 @@
 
 /*** Subscribe Start ***/
 .subscribe {
-    background: linear-gradient(rgba(19, 53, 123, 0.6), rgba(19, 53, 123, 0.6)),
-        url(../img/subscribe-img.jpg);
+    background: linear-gradient(rgba(19, 53, 123, 0.6), rgba(19, 53, 123, 0.6));
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
